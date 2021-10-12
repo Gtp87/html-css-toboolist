@@ -1,8 +1,8 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 html{
     font-family: 'Roboto', sans-serif;
@@ -17,7 +17,24 @@ header{
     height: 90;
     padding: 20px 0px;
     line-height: 60px;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+}
+
+main{
+    width: 40%;
+    background-color: #FFFFFF;
+    margin: 10px auto 40px;
+    
+}
+
+.task-section{
+    border-bottom: 3px solid #F6F8F9 ;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+h3{
+    margin: 10px;
 }
 
 #logo{
@@ -28,5 +45,21 @@ header{
 #title{
     display: inline-block;
 }
+
+.check{
+    border-radius: 50%;
+    border: 1px solid #A8DFD3;
+    color: #A8DFD3;
+    margin-left: 5px;
+}
+
+.cross{
+    border-radius: 50%;
+    border: 1px solid red;
+    color:red;
+    margin-left: 5px;
+}
+
+
 
 
