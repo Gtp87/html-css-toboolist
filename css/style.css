@@ -33,8 +33,30 @@ main{
     border-radius: 5px;
 }
 
+.button{
+    padding: 0.8em;
+    border-radius: 10px;
+    width: 10em;
+}
+
+#Task{
+    background-color: #47ADF1;
+    color: #FFFFFF;
+    border: none;
+}
+
+#section{
+    background-color: #FFFFFF;
+    color: #D2D6D9;
+    border: 1px solid #D2D6D9;
+}
+
 h3{
     margin: 10px;
+}
+
+p{
+    margin: 20px 0;
 }
 
 #logo{
@@ -95,5 +117,39 @@ h3{
     text-align: center;
 
 }
+
+.mobile{
+    width: 5em;
+    font-size: 60%;
+    background-color: #F29E33;
+    color: #FFFFFF;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.web{
+    width: 5em;
+    font-size: 60%;
+    background-color: #E7A4C8;
+    color: #FFFFFF;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.sales{
+    width: 5em;
+    font-size: 60%;
+    background-color: #B0C926;
+    color: #FFFFFF;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+
+}
+
 
 
