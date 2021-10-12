@@ -29,7 +29,7 @@ main{
 
 .task-section{
     border-bottom: 3px solid #F6F8F9 ;
-    margin-bottom: 20px;
+    margin: 0 20px;
     border-radius: 5px;
 }
 
@@ -46,6 +46,11 @@ h3{
     display: inline-block;
 }
 
+.todo{
+    border-radius: 5px;
+}
+
+
 .check{
     border-radius: 50%;
     border: 1px solid #A8DFD3;
@@ -60,6 +65,35 @@ h3{
     margin-left: 5px;
 }
 
+.editorial{
+    width: 5em;
+    font-size: 60%;
+    background-color: #45ABE9;
+    color: #FFFFFF;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+}
 
+.q1{
+    width: 5em;
+    font-size: 60%;
+    background-color: #9C72E4;
+    color: #FFFFFF;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.recruiting{
+    width: 5em;
+    font-size: 60%;
+    background-color: #64C0A8;
+    color: #FFFFFF;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+
+}
 
 
