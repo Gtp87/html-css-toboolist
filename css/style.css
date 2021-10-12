@@ -2,15 +2,30 @@
     background-color: red;
 } */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html{
     font-family: 'Roboto', sans-serif;
 }
 
 header{
     width: 1200px;
+    height: 90;
+    padding: 20px 0px;
+    line-height: 60px;
     /* background-color: blue; */
+}
+
+#logo{
+    height: 100%;
+    vertical-align: middle;
 }
 
 #title{
     display: inline-block;
 }
+
