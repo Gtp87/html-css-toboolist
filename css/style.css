@@ -14,7 +14,7 @@ body{
 
 header{
     width: 100%px;
-    height: 90;
+    height: 90px;
     padding: 20px 0px;
     line-height: 60px;
     background-color: #FFFFFF;
@@ -74,6 +74,11 @@ p{
 
 
 .check{
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    line-height: 1.2em;
+    text-align: center;
     border-radius: 50%;
     border: 1px solid #A8DFD3;
     color: #A8DFD3;
@@ -81,6 +86,11 @@ p{
 }
 
 .cross{
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    line-height: 1.2em;
+    text-align: center;
     border-radius: 50%;
     border: 1px solid red;
     color:red;
